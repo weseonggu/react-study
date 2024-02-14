@@ -1,5 +1,5 @@
 import './App.css';
-import LearningComponent from './components/learning-example/LearningComponent';
+import Counter from './components/counter/Counter';
 
 
 
@@ -7,9 +7,17 @@ import LearningComponent from './components/learning-example/LearningComponent';
 function App() {
   return (
     <div className="App">
-      <LearningComponent></LearningComponent>
+      <Counter/>
+
     </div>
   );
 }
-
+// function PlayingWithProps( {property1, property2} ) {
+//   console.log(property1)
+//   console.log(property2)
+  
+//   return (
+//     <div>Props</div>
+//   )
+// }
 export default App;
